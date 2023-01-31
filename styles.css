@@ -47,6 +47,10 @@ a {
   flex-direction: column;
 }
 
+.header a {
+  text-decoration: none;
+}
+
 .header .menu {
   display: flex;
   padding: 8px;
