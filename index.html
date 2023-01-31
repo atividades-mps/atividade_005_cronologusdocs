@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cronologus</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+    <div class="root">
+        <header class="header">
+            <ul class="menu">
+                <li class="option">Início</li>
+                <li class="option">Documentação</li>
+                <li class="option"><a href="https://github.com/atividades-mps/atividade_004_cronologus">Github</a></li>
+            </ul>
+            <div class="banner">
+                <div class="title-w">
+                    <h1 class="title">Cronologus </h1>
+                    <p class="description">Um aplicativo de agenda para gerenciamento de eventos.</p>
+                </div>
+                <img src="./docs/cronologusapp.png" alt="Banner">
+            </div>
+            <button class="button-try">Acessar agenda</button>
+        </header>
+        <main class="main">
+            <div class="container light">
+                <iframe class="wireframes"
+                    src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FH11AXBuIR5J7cMXpniflZX%2FCronologus%3Fnode-id%3D5%253A4%26scaling%3Dscale-down%26page-id%3D0%253A1%26starting-point-node-id%3D5%253A4"
+                    allowfullscreen></iframe>
+            </div>
+
+            <div class="container light reverse">
+                <div class="left">
+                    <h2 class="title">Diagrama de casos de uso</h2>
+                    <p class="description">Diagrama que apresenta todas as funcionalidades do sistema.</p>
+                </div>
+                <img src="./docs/usecase.png" alt="Casos de uso">
+            </div>
+
+            <div class="container dark">
+                <div class="left">
+                    <h2 class="title">Modelo C4: Nível Contextual</h2>
+                    <!-- <p class="description">Diagrama que apresenta todas as funcionalidades do sistema.</p> -->
+                </div>
+                <img src="./docs/c4 level 1.png" alt="c4 l1">
+            </div>
+            <div class="container dark reverse">
+                <div class="left">
+                    <h2 class="title">Modelo C4: Nível de Containers</h2>
+                    <!-- <p class="description">Diagrama que apresenta todas as funcionalidades do sistema.</p> -->
+                </div>
+                <img src="./docs/c4 level 2.png" alt="c4 l2">
+            </div>
+            <div class="container dark">
+                <div class="left">
+                    <h2 class="title">Modelo C4: Nível de Componentes</h2>
+                    <!-- <p class="description">Diagrama que apresenta todas as funcionalidades do sistema.</p> -->
+                </div>
+                <img src="./docs/c4 level 3.png" alt="c4 l3">
+            </div>
+            <div class="container light">
+                <div class="left">
+                    <h2 class="title">System Metaphor</h2>
+                    <p class="description">Neste sistema, estarão envolvidos 3 componentes: navegador para acessar o
+                        app, servidor backend e banco de dados SQLite.</p>
+                </div>
+                <img src="./docs/systemmeta.svg" alt="system metaphor">
+            </div>
+        </main>
+
+        <footer class="footer">
+            <span class="name">© Cronologus</span>
+        </footer>
+    </div>
+
+    <div class="preview hidden">
+        <button class="button">Fechar</button>
+        <img src="./docs/cronologusapp.png" alt="Preview">
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
